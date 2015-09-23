@@ -14,7 +14,6 @@
 		099517041BB2666F00C034FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099517031BB2666F00C034FC /* Assets.xcassets */; };
 		099517071BB2666F00C034FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099517051BB2666F00C034FC /* LaunchScreen.storyboard */; };
 		099517121BB2666F00C034FC /* SampleJenkinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099517111BB2666F00C034FC /* SampleJenkinTests.m */; };
-		0995171D1BB2666F00C034FC /* SampleJenkinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0995171C1BB2666F00C034FC /* SampleJenkinUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,6 @@
 		099517111BB2666F00C034FC /* SampleJenkinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleJenkinTests.m; sourceTree = "<group>"; };
 		099517131BB2666F00C034FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099517181BB2666F00C034FC /* SampleJenkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleJenkinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0995171C1BB2666F00C034FC /* SampleJenkinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleJenkinUITests.m; sourceTree = "<group>"; };
-		0995171E1BB2666F00C034FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +80,6 @@
 			children = (
 				099516F61BB2666F00C034FC /* SampleJenkin */,
 				099517101BB2666F00C034FC /* SampleJenkinTests */,
-				0995171B1BB2666F00C034FC /* SampleJenkinUITests */,
 				099516F51BB2666F00C034FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,15 +125,6 @@
 				099517131BB2666F00C034FC /* Info.plist */,
 			);
 			path = SampleJenkinTests;
-			sourceTree = "<group>";
-		};
-		0995171B1BB2666F00C034FC /* SampleJenkinUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0995171C1BB2666F00C034FC /* SampleJenkinUITests.m */,
-				0995171E1BB2666F00C034FC /* Info.plist */,
-			);
-			path = SampleJenkinUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0995171D1BB2666F00C034FC /* SampleJenkinUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +482,7 @@
 				099517231BB2666F00C034FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		099517241BB2666F00C034FC /* Build configuration list for PBXNativeTarget "SampleJenkinTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +491,7 @@
 				099517261BB2666F00C034FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		099517271BB2666F00C034FC /* Build configuration list for PBXNativeTarget "SampleJenkinUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +500,7 @@
 				099517291BB2666F00C034FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
